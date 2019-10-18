@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFA1E7BC235A34BE00FF957E /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E7BB235A34BE00FF957E /* CharacterList.swift */; };
+		BFA1E7BE235A3BB900FF957E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E7BD235A3BB900FF957E /* ContentView.swift */; };
+		BFB57D762359B3D800D2613E /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB57D752359B3D800D2613E /* Actor.swift */; };
+		BFB66C90235855F60036FE16 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB66C8F235855F60036FE16 /* Character.swift */; };
+		BFB66C922359A2560036FE16 /* ActorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB66C912359A2560036FE16 /* ActorDetail.swift */; };
 		BFD37E4F2357147B00D27A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD37E4E2357147B00D27A52 /* AppDelegate.swift */; };
 		BFD37E512357147B00D27A52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD37E502357147B00D27A52 /* SceneDelegate.swift */; };
-		BFD37E532357147B00D27A52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD37E522357147B00D27A52 /* ContentView.swift */; };
 		BFD37E552357147C00D27A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD37E542357147C00D27A52 /* Assets.xcassets */; };
 		BFD37E582357147C00D27A52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD37E572357147C00D27A52 /* Preview Assets.xcassets */; };
 		BFD37E5B2357147C00D27A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD37E592357147C00D27A52 /* LaunchScreen.storyboard */; };
+		BFD37E64235714FE00D27A52 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD37E63235714FE00D27A52 /* Data.swift */; };
+		BFD37E662357154500D27A52 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD37E652357154500D27A52 /* Movie.swift */; };
+		BFD37E6823571FF000D27A52 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD37E6723571FF000D27A52 /* MovieDetail.swift */; };
+		BFD37E6A2357218A00D27A52 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD37E692357218A00D27A52 /* MovieRow.swift */; };
+		BFE840E2235789700072132E /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE840E12357896F0072132E /* MovieList.swift */; };
+		BFE840EA235795D20072132E /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE840E9235795D20072132E /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFD37E4B2357147B00D27A52 /* Ebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA1E7BB235A34BE00FF957E /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		BFA1E7BD235A3BB900FF957E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFB57D752359B3D800D2613E /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		BFB66C8F235855F60036FE16 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		BFB66C912359A2560036FE16 /* ActorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDetail.swift; sourceTree = "<group>"; };
+		BFD37E4B2357147B00D27A52 /* Marvel & Dc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marvel & Dc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD37E4E2357147B00D27A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFD37E502357147B00D27A52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFD37E522357147B00D27A52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFD37E542357147C00D27A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD37E572357147C00D27A52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFD37E5A2357147C00D27A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFD37E5C2357147C00D27A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD37E622357149A00D27A52 /* Ebook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ebook.entitlements; sourceTree = "<group>"; };
+		BFD37E63235714FE00D27A52 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BFD37E652357154500D27A52 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BFD37E6723571FF000D27A52 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		BFD37E692357218A00D27A52 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		BFE840E12357896F0072132E /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		BFE840E9235795D20072132E /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +69,7 @@
 		BFD37E4C2357147B00D27A52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFD37E4B2357147B00D27A52 /* Ebook.app */,
+				BFD37E4B2357147B00D27A52 /* Marvel & Dc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +77,20 @@
 		BFD37E4D2357147B00D27A52 /* Ebook */ = {
 			isa = PBXGroup;
 			children = (
+				BFD37E622357149A00D27A52 /* Ebook.entitlements */,
 				BFD37E4E2357147B00D27A52 /* AppDelegate.swift */,
 				BFD37E502357147B00D27A52 /* SceneDelegate.swift */,
-				BFD37E522357147B00D27A52 /* ContentView.swift */,
+				BFA1E7BD235A3BB900FF957E /* ContentView.swift */,
+				BFE840E9235795D20072132E /* AppView.swift */,
+				BFA1E7BB235A34BE00FF957E /* CharacterList.swift */,
+				BFB66C912359A2560036FE16 /* ActorDetail.swift */,
+				BFE840E12357896F0072132E /* MovieList.swift */,
+				BFD37E692357218A00D27A52 /* MovieRow.swift */,
+				BFD37E6723571FF000D27A52 /* MovieDetail.swift */,
+				BFD37E63235714FE00D27A52 /* Data.swift */,
+				BFB57D752359B3D800D2613E /* Actor.swift */,
+				BFB66C8F235855F60036FE16 /* Character.swift */,
+				BFD37E652357154500D27A52 /* Movie.swift */,
 				BFD37E542357147C00D27A52 /* Assets.xcassets */,
 				BFD37E592357147C00D27A52 /* LaunchScreen.storyboard */,
 				BFD37E5C2357147C00D27A52 /* Info.plist */,
@@ -92,7 +124,7 @@
 			);
 			name = Ebook;
 			productName = Ebook;
-			productReference = BFD37E4B2357147B00D27A52 /* Ebook.app */;
+			productReference = BFD37E4B2357147B00D27A52 /* Marvel & Dc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +180,17 @@
 			files = (
 				BFD37E4F2357147B00D27A52 /* AppDelegate.swift in Sources */,
 				BFD37E512357147B00D27A52 /* SceneDelegate.swift in Sources */,
-				BFD37E532357147B00D27A52 /* ContentView.swift in Sources */,
+				BFE840EA235795D20072132E /* AppView.swift in Sources */,
+				BFA1E7BC235A34BE00FF957E /* CharacterList.swift in Sources */,
+				BFB57D762359B3D800D2613E /* Actor.swift in Sources */,
+				BFB66C922359A2560036FE16 /* ActorDetail.swift in Sources */,
+				BFD37E6823571FF000D27A52 /* MovieDetail.swift in Sources */,
+				BFD37E6A2357218A00D27A52 /* MovieRow.swift in Sources */,
+				BFD37E64235714FE00D27A52 /* Data.swift in Sources */,
+				BFB66C90235855F60036FE16 /* Character.swift in Sources */,
+				BFA1E7BE235A3BB900FF957E /* ContentView.swift in Sources */,
+				BFE840E2235789700072132E /* MovieList.swift in Sources */,
+				BFD37E662357154500D27A52 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,16 +326,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ebook/Ebook.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Ebook/Preview Content\"";
+				DEVELOPMENT_TEAM = 77J47Z8X2R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Ebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yahi61006.Ebook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Marvel & Dc";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,16 +351,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ebook/Ebook.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Ebook/Preview Content\"";
+				DEVELOPMENT_TEAM = 77J47Z8X2R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Ebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yahi61006.Ebook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Marvel & Dc";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
