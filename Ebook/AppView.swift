@@ -13,7 +13,7 @@ struct AppView: View {
         TabView {
             MovieList()
                 .tabItem {
-                  Image(systemName: "film")
+                    Image(systemName: "film")
                     Text("movies")
             }
             CharacterList()
@@ -30,4 +30,4 @@ struct AppView_Previews: PreviewProvider {
     static var previews: some View {
         AppView()
     }
-}
+} 
